@@ -1,0 +1,351 @@
+*{
+   
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/0111.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 40rem;
+}
+
+/* navbar */
+nav .container{
+    margin-left: none;
+}
+nav img {
+    width: 14rem;
+    padding-left: 5rem;
+}
+.collapse{
+    justify-content: space-between;
+}
+.btn1{
+    align-items: center;
+    background:transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px 4px;
+    cursor: pointer;
+}
+
+.red-btn {
+    background: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.red-btn:hover {
+    background: rgb(193, 17, 25);
+}
+
+/* hero section */
+.hero{
+    margin-top: 4rem;
+    justify-content: space-around;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 6rem;
+}
+
+.hero-first-p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.hero-second-p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+form {
+    width: 40%;
+}
+
+form #floatingInput {
+    color: #fff;
+}
+
+form .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+
+form .form-floating>.form-control:focus~label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+form .form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+}
+
+form .form-floating {
+    width: 35%;
+}
+
+form #floatingInput {
+    background: transparent;
+}
+
+form label {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+
+.get-started-btn {
+    height: 3.7rem;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    padding-left:2rem;
+}
+
+.get-started-btn::after {
+    content: "\276F";
+    margin-left: 5px;
+}
+
+
+/* enjoy/watch/kid/download sections */
+.enjoy-undr{
+    padding-top: 2rem;
+    padding-left:4rem;
+}
+.enjoy-section,.watch-section,
+.download-section{
+    height: 30rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-paragraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.enjoy-section{
+    border-top: 5px solid #232323;
+}
+.watch-section,
+.download-section {
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+}
+.box{
+    position: relative;
+    width: 30rem;
+    height: 18rem;
+
+}
+.box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+/* faq section */
+
+.faq-section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.faq-section button {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq-section .accordion {
+    --bs-accordion-color: rgb(255, 255, 255);
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius: none;
+}
+
+.faq-section .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.faq-section .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.faq-section .accordion-button:hover {
+    background-color: rgb(65,65,65);
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+    background-color: rgb(65,65,65);
+    color: rgb(255,255,255);
+}
+
+.faq-section .accordion-button::after {
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 50px;
+    top: 5px;
+    right: 45px;
+}
+
+.faq-section .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "\00d7";
+}
+
+/* footer */
+
+footer {
+    border-top: 5px solid #232323;
+}
+
+footer p,
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer select {
+    background: transparent;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    appearance: none;
+    border-radius: 5px;
+}
+
+footer img {
+    filter: invert();
+    top: 8px;
+    left: 12px;
+}
+
+footer .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    top: 15px;
+    right: -115px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 992px) {
+    header {
+        height: 30rem;
+    }
+    nav .container{
+            margin-left: none;
+    }
+ 
+    nav img {
+      
+        width: 24%;  
+    }
+    form .form-floating {
+        width: 52%;
+    }
+    .hero{
+        margin-top: 1rem;
+        justify-content: space-around;
+    }
+   
+    .enjoy-undr{
+        padding-top: 2rem;
+        padding-left:none;
+    }
+    .hero-title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+
+    .hero-first-p,
+    .hero-second-p,
+    .faq-section h3 {
+        font-size: 1.125rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav .container{
+        margin-left: none;
+    }
+    nav img {
+        width: 22%;
+        padding-left: 1rem;
+     
+    }
+    .btn1{
+        padding: 5px 10px;
+    }
+    
+    .engbt{
+        display: none;
+    }
+    .hero-second-p{
+        font-size: 1.125rem;
+        padding-left: 3rem;
+    }
+
+    header {
+        height: 110vh;
+    }
+
+    form .form-floating {
+        width: 90%;
+    }
+    .get-started-btn {
+        height: 3rem;
+        font-size: 1.1rem;
+        padding-right: 2rem;
+        padding-left:1rem;
+    }
+   
+}

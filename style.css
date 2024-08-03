@@ -18,6 +18,9 @@ nav img {
     width: 14rem;
     padding-left: 5rem;
 }
+#navbarSupportedContent{
+    padding-right: 4rem;
+}
 .collapse{
     justify-content: space-between;
 }
@@ -32,7 +35,9 @@ nav img {
     border-radius: 4px 4px;
     cursor: pointer;
 }
-
+#icen1{
+    font-size: 0.75rem;
+}
 .red-btn {
     background: rgb(229, 9, 20);
     color: #fff;
@@ -243,13 +248,13 @@ form label {
 
 .faq-section button {
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     
 }
 .accordion-body{
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -259,7 +264,6 @@ form label {
     --bs-accordion-border-color: none;
     --bs-accordion-border-radius: none;
 }
-
 
 .faq-section .accordion-button:focus {
     border: none;
@@ -312,29 +316,16 @@ footer li {
     list-style-type: none;
 }
 
-footer select {
-    background: transparent;
+.btn2{
+    align-items: center;
+    background:transparent;
     color: #fff;
-    padding-left: 40px;
-    padding-right: 40px;
-    appearance: none;
-    border-radius: 5px;
-}
-
-footer img {
-    filter: invert();
-    top: 8px;
-    left: 12px;
-}
-
-footer .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #fff;
-    top: 15px;
-    right: -115px;
+    border: 1px solid #fff;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px 4px;
+    cursor: pointer;
 }
 
 /* mobile */
@@ -346,10 +337,12 @@ footer .arrow-down {
     nav .container{
             margin-left: none;
     }
- 
     nav img {
-      
-        width: 24%;  
+        width: 24%; 
+        justify-content: left; 
+    }
+    #navbarSupportedContent{
+        padding-right: 0rem;
     }
     form .form-floating {
         width: 52%;
@@ -383,10 +376,13 @@ footer .arrow-down {
         margin-top: 3rem;
     
     }
+    .dwnsec_part{
+        margin-left: 2rem;
+    }
     .box1{
         width: 40rem;
         height: 25rem;
-        margin-left: 3rem;
+       
         margin-top: 3rem;
     
     }
@@ -429,7 +425,7 @@ footer .arrow-down {
         font-weight: 600;
     }
     .accordion{
-        width: 48rem;
+        width: 45rem;
         margin-left: 0;
     }
     .faq-section button {
@@ -482,6 +478,9 @@ footer .arrow-down {
         height: 15rem;
         margin-left: 2rem;
     
+    }
+    .dwnsec_part{
+        margin-left: 0rem;
     }
     .box1{
         width: 28rem;

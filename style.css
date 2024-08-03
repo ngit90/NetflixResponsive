@@ -121,14 +121,17 @@ form label {
 
 /* enjoy/watch/kid/download sections */
 .enjoy-undr{
-    padding-top: 2rem;
+    padding-top: 6rem;
     padding-left:4rem;
 }
 .enjoy-section,.watch-section,
-.download-section{
+.download-section,.children-section{
     height: 30rem;
 }
-
+.child-undr{
+    
+    padding-left:2rem;
+}
 .section-title {
     font-size: 3rem;
     font-weight: 900;
@@ -140,8 +143,9 @@ form label {
 }
 .enjoy-section{
     border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
 }
-.watch-section,
+.watch-section, .children-section,
 .download-section {
     border-top: 5px solid #232323;
     border-bottom: 5px solid #232323;
@@ -170,15 +174,80 @@ form label {
     mix-blend-mode: screen;
 }
 
+.box3{
+    position: relative;
+    width: 28rem;
+    height: 19rem;
+    margin: 1rem;
+}
+.imggif2{
+    width: 450px;
+    height: 300px;
+}
+.box3.imggif2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+.imggif1{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+.box1{
+    position: relative;
+    width: 28rem;
+    height: 19rem;
+    margin: 2rem;
+}
+.box1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box1 video{
+    position: absolute;
+    top: 12px;
+    left: 75px;
+    width: 17.8rem;
+    height: 10.3rem;
+    align-items: center;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
 /* faq section */
+.faq-section h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
 
-.faq-section h3 {
+.accordion{
+    width: 60rem;
+    margin-left: 3.5rem;
+}
+.faq-section h2 {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.875rem;
 }
 
 .faq-section button {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.accordion-body{
     color: #fff;
     font-size: 24px;
     font-weight: 400;
@@ -191,10 +260,6 @@ form label {
     --bs-accordion-border-radius: none;
 }
 
-.faq-section .accordion-item:first-of-type .accordion-button {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
 
 .faq-section .accordion-button:focus {
     border: none;
@@ -293,10 +358,60 @@ footer .arrow-down {
         margin-top: 1rem;
         justify-content: space-around;
     }
-   
+    .enjoy-section,
+.download-section{
+    height: 42rem;
+}
+.watch-section {
+    height: 45rem;
+}
+.children-section{
+    height: 46rem;
+}
     .enjoy-undr{
         padding-top: 2rem;
-        padding-left:none;
+        
+    }
+    .child-undr{
+        padding-top: 2rem;
+        
+    }
+    .box{
+        width: 38rem;
+        height: 20rem;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    
+    }
+    .box1{
+        width: 40rem;
+        height: 25rem;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    
+    }
+    .box1 video{
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+        width: 25rem;
+        height: 12rem;
+        align-items: center;
+        object-fit: cover;
+        mix-blend-mode: screen;
+    }
+  .box3{
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+    .section-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .section-paragraph {
+        font-size: 1rem;
+        font-weight: 400;
     }
     .hero-title {
         font-size: 2rem;
@@ -309,7 +424,22 @@ footer .arrow-down {
     .faq-section h3 {
         font-size: 1.125rem;
     }
-
+    .faq-section h1{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .accordion{
+        width: 48rem;
+        margin-left: 0;
+    }
+    .faq-section button {
+        font-size: 1.25rem;
+               
+    }
+    .accordion-body{
+        font-size: 1.25rem;
+        
+    }
 }
 
 
@@ -347,5 +477,58 @@ footer .arrow-down {
         padding-right: 2rem;
         padding-left:1rem;
     }
-   
+    .box{
+        width: 26rem;
+        height: 15rem;
+        margin-left: 2rem;
+    
+    }
+    .box1{
+        width: 28rem;
+        height: 19rem;
+        margin: 0rem;
+    }
+    .box1 video{
+       
+        top: 12px;
+        left: 75px;
+        width: 17.8rem;
+        height: 10.3rem;
+        
+    }
+    .watch-section{
+        height: 40rem;
+    }
+    .children-section{
+        height: 40rem;
+    }
+    .box3{
+        margin-left: 0rem;
+        margin-top: 2rem;
+      }
+    .section-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .section-paragraph {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .faq-section h1{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .accordion{
+        width: 95%;
+        margin-left: 1rem;
+    }
+    .faq-section button {
+        font-size: 1.25rem;
+               
+    }
+    .accordion-body{
+        font-size: 1.25rem;
+        
+    }
 }

@@ -2,7 +2,7 @@
    
     font-family: 'Segoe UI', sans-serif;
 }
-
+/* First part */
 header {
     background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/0111.jpg);
     background-size: cover;
@@ -10,7 +10,7 @@ header {
     height: 40rem;
 }
 
-/* navbar */
+/* navbar -- part 1.1*/
 nav .container{
     margin-left: none;
 }
@@ -33,7 +33,7 @@ nav img {
     font-size: 14px;
     font-weight: bold;
     border-radius: 4px 4px;
-    cursor: pointer;
+   
 }
 #icen1{
     font-size: 0.75rem;
@@ -44,7 +44,6 @@ nav img {
     border: 0;
     border-radius: 0.25rem;
     padding: 5px 17px;
-    cursor: pointer;
     margin-left: 10px;
 }
 
@@ -52,7 +51,7 @@ nav img {
     background: rgb(193, 17, 25);
 }
 
-/* hero section */
+/* hero section -- part 1.2 */
 .hero{
     margin-top: 4rem;
     justify-content: space-around;
@@ -125,6 +124,7 @@ form label {
 
 
 /* enjoy/watch/kid/download sections */
+
 .enjoy-undr{
     padding-top: 6rem;
     padding-left:4rem;
@@ -230,14 +230,16 @@ form label {
     object-fit: cover;
     mix-blend-mode: screen;
 }
+
 /* faq section */
+
 .faq-section h1{
     font-size: 3rem;
     font-weight: bolder;
 }
 
 .accordion{
-    width: 60rem;
+    width: 59rem;
     margin-left: 3.5rem;
 }
 .faq-section h2 {
@@ -295,7 +297,7 @@ form label {
     content: "\00d7";
 }
 
-/* footer */
+/* footer section */
 
 footer {
     border-top: 5px solid #232323;
@@ -325,10 +327,9 @@ footer li {
     font-size: 14px;
     font-weight: bold;
     border-radius: 4px 4px;
-    cursor: pointer;
 }
 
-/* mobile */
+/* Tablet model devices */
 
 @media screen and (max-width: 992px) {
     header {
@@ -437,9 +438,13 @@ footer li {
         
     }
 }
-
+/* Mobile device */
 
 @media only screen and (max-width: 600px) {
+
+    header {
+        height: 30rem;
+    }
     nav .container{
         margin-left: none;
     }
@@ -460,10 +465,7 @@ footer li {
         padding-left: 3rem;
     }
 
-    header {
-        height: 110vh;
-    }
-
+  
     form .form-floating {
         width: 90%;
     }

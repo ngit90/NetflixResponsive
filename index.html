@@ -20,14 +20,19 @@
     <header class="position-relative">
         <!-- Header part 1 Navbar-->
         <nav class="navbar navbar-expand pt-4">
-            <div class="container">
+            <div class="container-fluid">
                 <img src="images/logo.png" alt="logo" >
                 <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-                    <button class="btn1" onclick="myfunction()"><i class="material-icons" id="icen1">&#xe8e2;</i> &nbsp;<span class="engbt">English</span>  &#11206 </button>
-                    <ul name="" id="lstbtn" style="display: none; " >
-                        <li value="" >English</li>
-                        <li value="" >Hindi</li>
-                    </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary  dropdown-toggle btn1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons" id="icen1">&#xe8e2;</i>
+                            &nbsp;<span class="engbt">English</span> 
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                          <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        </ul>
+                      </div>
                     <button  class="red-btn fw-semibold">Sign In</button>
                 </div>
             </div>
@@ -38,7 +43,7 @@
             <p class="hero-first-p text-white text-center">Watch anywhere. Cancel anytime.</p>
             <p class="hero-second-p text-white text-center">Ready to watch? Enter your email to create or restart your membership.</p>
 
-            <form class="row g-3 d-flex align-items-center justify-content-center w-100 w-lg-70" id="form11">
+            <form class="row gx-1  gy-3 d-flex align-items-center justify-content-center w-100 w-lg-70" id="form11">
                 <div class="form-floating col-auto">
                     <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
                     <label for="floatingInput">Email address</label>
@@ -195,7 +200,7 @@
             <h3 class="text-center mt-5">
                 Ready to watch? Enter your email to create or restart your membership.
             </h3>
-            <form class="row g-3 d-flex align-items-center justify-content-center w-100 w-lg-75 m-auto" id="form12">
+            <form class="row gx-1 gy-3 d-flex align-items-center justify-content-center w-100 w-lg-75 m-auto" id="form12">
                 <div class="form-floating col-auto">
                     <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com"  name="email">
                     <label for="floatingInput">Email address</label>
@@ -282,7 +287,16 @@
                 </div>
             </div>
             <div class="py-3">
-                <button class="btn2"><i class="material-icons" id="icen1">&#xe8e2;</i> &nbsp;<span class="engbt2">English</span>  &#11206 </button>
+              <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="material-icons" id="icen1">&#xe8e2;</i>
+                        &nbsp;<span class="engbt1">English</span> 
+                    </button>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    </ul>
+                  </div>
             </div>
             <p>Netflix India</p>
         </div>

@@ -4,9 +4,9 @@
 }
 /* First part */
 header {
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/0111.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url(images/0111.jpg);
     background-size: cover;
-    background-position: 50%;
+    background-position: 90%;
     height: 40rem;
 }
 

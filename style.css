@@ -33,6 +33,10 @@ nav img {
     border-radius: 4px 4px;
    
 }
+.btn{
+    --bs-focus-ring-color: rgb(255, 255, 255);
+    --bs-focus-ring-width: 0.1rem;
+}
 #icen1{
     font-size: 1rem;
 }

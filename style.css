@@ -192,8 +192,8 @@ form label {
     margin: 1rem;
 }
 .imggif2{
-    width: 450px;
-    height: 300px;
+    width: 28.12rem;
+    height: 18.75rem
 }
 .box3.imggif2{
     position: absolute;
@@ -204,10 +204,10 @@ form label {
 }
 .imggif1{
     position: absolute;
-    top: 200px;
-    left: 300px;
-    width: 40px;
-    height: 40px;
+    top: 12.5rem;
+    left: 18.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
     align-items: center;
     object-fit: cover;
     mix-blend-mode: screen;
@@ -228,8 +228,8 @@ form label {
 }
 .box1 video{
     position: absolute;
-    top: 12px;
-    left: 75px;
+    top: 0.75rem;
+    left: 4.68rem;
     width: 17.8rem;
     height: 10.3rem;
     align-items: center;
@@ -486,7 +486,7 @@ footer li {
         padding-left:1rem;
     }
     .box{
-        width: 26rem;
+        width: 24rem;
         height: 15rem;
         margin-left: 2rem;
     
@@ -495,7 +495,7 @@ footer li {
         margin-left: 0rem;
     }
     .box1{
-        width: 28rem;
+        width: 25rem;
         height: 19rem;
         margin: 0rem;
     }
@@ -506,6 +506,10 @@ footer li {
         width: 17.8rem;
         height: 10.3rem;
         
+    }
+    .imggif2{
+        width: 26rem;
+        height: 18.75rem
     }
     .watch-section{
         height: 40rem;
